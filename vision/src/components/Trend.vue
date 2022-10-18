@@ -107,7 +107,7 @@ export default {
     async getData() {
       const { data: ret } = await this.$http.get("trend");
       this.allData = ret;
-      console.log(this.allData);
+      // console.log(this.allData);
       this.updateChart();
     },
     updateChart() {
